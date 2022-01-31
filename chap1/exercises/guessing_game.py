@@ -1,5 +1,5 @@
 import random
-import time
+from time import sleep
 
 # write a function(guessing_game) that takes no arguments
 
@@ -39,7 +39,7 @@ def not_valid_number(u_num):
     '''
     if u_num not in range(1, 101):
         print('That was not a number between 1 and 100')
-        time.sleep(1)
+        sleep(1)
         return True
 
 
