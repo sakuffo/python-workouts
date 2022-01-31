@@ -24,8 +24,10 @@ def guessing_game():
         elif user_num < correct_num:
             print("Too Low!")
         # If correct print out "Just Right"
+        # the program exits if the user guesses correctly
         elif user_num == correct_num:
             print("Just Right!")
+            break
 
 
 def not_valid_number(u_num):
